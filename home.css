@@ -67,6 +67,10 @@
 	font-size:18pt;
 }
 
+.desc-image{
+	max-width: 100%;
+}
+
 .desc-link:hover{
 	background-color:"gray"
 }
@@ -102,7 +106,4 @@
 		padding-top: 30px;
 	}
 
-	.desc-detail{
-		text-align: center;
-	}
 }
