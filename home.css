@@ -1,13 +1,13 @@
 .project ul {
-	padding-bottom: 10vw;
+	padding-bottom: 100px;
 	list-style-type: none;
 	font-family: 'Permanent Marker', cursive;
-	font-size: 3vh;
+	font-size: 30pt;
 }
 
 .project li {
-	padding-top: 5vw;
-	padding-bottom: 1vw;
+	padding-top: 100px;
+	padding-bottom: 10px;
 }
 
 .project a {
