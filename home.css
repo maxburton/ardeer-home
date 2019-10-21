@@ -1,81 +1,108 @@
-/*
-#header{
-	width:100%;
-	max-width:100%;
-}
-
-#header-title h1{
-	width:100%;
-	top: 0;
-    left: 0;
-	color: white;
-	margin-block-start: 0vw;
-	margin-block-end: 0vw;
-	-webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
-    -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
-    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
-	font-size: 4vw;
-	text-align: center;
-	font-family: 'Lexend Peta', sans-serif;
-	background-image: linear-gradient(#2a3cc7, #6bc1ff);
-
-}
-
-#header-title{
-	padding-left: 0;
-}
-
-#header-navbar h2{
-	width: 100%;
-	color: white;
-	font-size: 1.5vw;
-	text-align: center;
-	background-color: #6bc1ff;
-	margin-block-start: 0vw;
-	margin-block-end: 0vw;
-	-webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
-    -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
-    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
-	font-family: 'Lexend Peta', sans-serif;
-	padding: 0.5vw;
-}
-
-#spacer
-{
-    width: 100%;
-    height: 4vw;
-}
-
-ul {
-	padding-top: 10vw;
+.project ul {
 	padding-bottom: 10vw;
 	list-style-type: none;
 	font-family: 'Permanent Marker', cursive;
-	font-size: 2vw;
-	text-align: center;
+	font-size: 3vh;
 }
 
-li{
-	padding-bottom: 10vw;
+.project li {
+	padding-top: 5vw;
+	padding-bottom: 1vw;
 }
 
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-*/
-
-
-.navbar-nav > li{
-  padding-left:0px;
-  padding-right:0px;
+.project a {
+	color: inherit;
+	text-decoration: inherit;
 }
 
-.brand{
-	width:40%;
-	margin-right:0%;
+.navbar-nav>li {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
-#logo{
+.navbar-center-v {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.brand {
+	width: 60%;
+	margin-right: 0%;
+}
+
+.icon{
+	margin-right: 5px;
+}
+
+.navbar-link {
+	padding-top: 6px;
+	font-size:20pt;
+	font-family: 'Righteous', cursive;
+}
+
+.title-gubbin{
+	padding-top: 6px;
+	padding-left: 6px;
+	font-family: 'Righteous', cursive;
+}
+
+.subheading{
+	text-align: left;
+}
+
+.description{
+	padding-top: 10px;
+	font-size:14pt;
+	font-family: 'Kalam', cursive;
+}
+
+.desc{
+	display: none;
+}
+
+.desc-link{
+	font-size:18pt;
+}
+
+.desc-link:hover{
+	background-color:"gray"
+}
+
+#logo a{
+	text-decoration: none;
+	color:black;
+}
+
+.category{
+	padding-top: 200px;
+	font-family: 'Rock Salt', cursive;
+}
+
+/* When the navbar is collapsed (in mobile mode) */
+@media (max-width: 991px) {
+    .brand {
+        display: inline-block;
+        float: none;
+		vertical-align: top;
+		width:80%;
+	}
+
+	.nav-link{
+        text-align: left;
+	}
 	
+	.navbar-link{
+		font-size:20pt;
+	}
+
+	.navbar-nav{
+		padding-top: 30px;
+	}
+
+	.desc-detail{
+		text-align: center;
+	}
 }

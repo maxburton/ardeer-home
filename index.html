@@ -1,50 +1,162 @@
+<!DOCTYPE html>
 <html>
-    <head>
-    <title>Max's Gubbin Bucket</title>
+
+<head>
+	<!-- TODO:
+		-Add About Me Section
+		-Add content to each project section
+		-Hide and show project section when project title is clicked
+	-->
+	<title>Max's Gubbin Bucket</title>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 	<script src="./bootstrap.js"></script>
 	<link rel="stylesheet" type="text/css" href="./bootstrap.css">
-	<link href="https://fonts.googleapis.com/css?family=Lexend+Peta|Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Righteous|Permanent+Marker|Kalam|Rock+Salt&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./home.css">
-    </head>
-    
-    <body>
-	<div class="container" id="header">
-		<div class="row" id="header-title">
-			<div class="col">
-				<h1>MAX'S GUBBIN BUCKET</h1>
-			</div>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="brand align-middle " id="logo">
+			<a href="#">
+				<img src="./imgs/bucket.png" width="60" height="60" class="d-inline-block align-middle" alt="">
+				<h1 class="d-inline-block align-middle title-gubbin">Max's Gubbin Bucket</h1>
+			</a>
 		</div>
-		<div class="row" id="header-navbar">
-			<div class="col">
-				<h2>Web Projects</h2>
-			</div>
-			<div class="col">
-				<h2>Other Projects</h2>
-			</div>
-			<div class="col">
-				<h2>CV</h2>
-			</div>
-			<div class="col">
-				<h2>Contact Me</h2>
-			</div>
+		<button class="navbar-toggler align-top" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto nav-fill w-100">
+				<li class="nav-item active">
+					<!-- can use js to change active -->
+
+					<a class="nav-link" href="#web_projects">
+						<img src="./imgs/web.png" width="32" height="32" class="d-inline-block align-middle icon"
+							alt="">
+						<h2 class="d-inline-block align-middle navbar-link">Web Projects <span
+								class="sr-only">(current)</span></h2>
+					</a>
+
+				</li>
+				<li class="nav-item active">
+					<!-- can use js to change active -->
+
+					<a class="nav-link" href="#other_projects">
+						<img src="./imgs/smartphone.png" width="32" height="32" class="d-inline-block align-middle icon"
+							alt="">
+						<h2 class="d-inline-block align-middle navbar-link">Other Projects <span
+								class="sr-only">(current)</span></h2>
+					</a>
+
+				</li>
+				<li class="nav-item active">
+					<!-- can use js to change active -->
+
+					<a class="nav-link" href="#cv">
+						<img src="./imgs/resume.png" width="32" height="32" class="d-inline-block align-middle icon"
+							alt="">
+						<h2 class="d-inline-block align-middle navbar-link">CV <span class="sr-only">(current)</span>
+						</h2>
+					</a>
+				</li>
+				<li class="nav-item active">
+					<!-- can use js to change active -->
+					<a class="nav-link" href="#contact">
+						<img src="./imgs/contact.png" width="32" height="32" class="d-inline-block align-middle icon"
+							alt="">
+						<h2 class="d-inline-block align-middle navbar-link">Contact Me <span
+								class="sr-only">(current)</span></h2>
+					</a>
+					</h2>
+				</li>
+			</ul>
 		</div>
-	</div>
-	<div class="container" id="spacer">
-		&nbsp;
-	</div>
+	</nav>
+
 	<div class="container" id="content">
-		<div class="row" id="web_projects">
+		<div class="row" id="aboutme">
+			&nbsp;
+		</div>
+		<div class="row project" id="web_projects">
 			<div class="col">
-				<table width="100%">
-					<ul>
-						<li><a href="./playlist/">Youtube Party Playlist</a></li>
-						<li><a href="./placeholdr/">Placeholdr</a></li>
-						<li><a href="./insanity/">Insanity Quotient</a></li>
-					</ul>
-				</table>
+				<div class="row">
+					<div class="col category">
+						<h1>Web Projects</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<ul>
+							<li><a class="heading-toggle" href="#">Youtube Party Playlist</a>
+								<div class="row desc">
+									<div class="col">
+										<div class="row desc-detail">
+											<div class="col-lg-1 col-sm-2"></div>
+											<div class="col-lg-6 col-sm-10">
+												<p class="description">This project was born after I was unable to find
+													an easy
+													way for my friends and I to contribute to a shared YouTube playlist.
+													We
+													would often want to show each other videos or stream music but we
+													had no way
+													of queueing them up.</br></br>
+													YouTube Party Playlist solves this issue by allowing user's to
+													create a
+													"room" where friends can submit YouTube videos on-the-fly to a
+													shared queue.
+													No login is required, you simply need a host device (e.g a laptop or
+													smart
+													TV) to create the room and everyone can connect to it using a mobile
+													device.
+													</br></br>
+													Features include a search engine for YouTube videos, "voteskip"
+													which skips
+													the current video if enough people vote to skip (The host has the
+													ability to
+													skip the current song immediately), a blacklist for DOS attacks and
+													an AJAX
+													preview of the upcoming songs which updates as soon as a new video is
+													submitted.</p>
+											</div>
+											<div class="col-lg-5 col-sm-12">
+												<img src="./imgs/contact.png" width="350" height="350"
+													alt="playlist preview image">
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<a class="desc-link" href="./playlist">Check out Playlist -></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li><a href="./placeholdr/">Placeholdr</a></li>
+							<li><a href="./insanity/">Insanity Quotient</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-    </body>
+</body>
+<script>
+	$(function () {
+		$(".heading-toggle").on("click", function (e) {
+			e.preventDefault();
+			let desc = $(this).next('.desc');
+			if (desc.css("display") == "none") {
+				desc.css("display", "flex");
+			} else {
+				desc.css("display", "none");
+			}
+		});
+	});
+</script>
+
+
 </html>
