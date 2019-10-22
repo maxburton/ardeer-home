@@ -33,101 +33,97 @@
 	margin-right: 0%;
 }
 
-.icon{
+.icon {
 	margin-right: 5px;
 }
 
 .navbar-link {
 	padding-top: 6px;
-	font-size:20pt;
+	font-size: 20pt;
 	font-family: 'Righteous', cursive;
 }
 
-.title-gubbin{
+.title-gubbin {
 	padding-top: 6px;
 	padding-left: 6px;
 	font-family: 'Righteous', cursive;
 }
 
-.subheading{
+.subheading {
 	text-align: left;
 }
 
-.description{
+.description {
 	padding-top: 10px;
-	font-size:14pt;
+	font-size: 14pt;
 	font-family: 'Kalam', cursive;
 }
 
-.desc{
+.desc {
 	display: none;
 }
 
-.desc-link{
-	font-size:18pt;
+.desc-link {
+	font-size: 18pt;
 }
 
-.desc-image{
+.desc-image {
 	max-width: 100%;
 }
 
-.desc-link:hover{
-	background-color:"gray"
+.desc-link:hover {
+	background-color: "gray"
 }
 
-#logo a{
+#logo a {
 	text-decoration: none;
-	color:black;
+	color: black;
 }
 
-.category{
+.category {
 	padding-top: 200px;
 	font-family: 'Rock Salt', cursive;
 }
 
-.category h1{
+.category h1 {
 	font-size: 40pt;
 }
 
 /* When the navbar is collapsed (in mobile mode) */
+
 @media (max-width: 991px) {
-    .brand {
-        display: inline-block;
-        float: none;
+	.brand {
+		display: inline-block;
+		float: none;
 		vertical-align: top;
-		width:80%;
+		width: 80%;
 	}
-
-	.nav-link{
-        text-align: left;
+	.nav-link {
+		text-align: left;
 	}
-	
-	.navbar-link{
-		font-size:32pt;
+	.navbar-link {
+		font-size: 32pt;
 	}
-
-	.navbar-nav{
+	.navbar-nav {
 		padding-top: 30px;
 	}
-
-	.category h1{
-		font-size: 64pt;
+	.category h1 {
+		font-size: 52pt;
 	}
-
-	.title-gubbin{
+	.title-gubbin {
 		font-size: 46pt;
 	}
-
-	.description{
-		font-size: 28pt;
+	.description {
+		font-size: 24pt;
 	}
-
-	.project ul{
-		font-size: 46pt;
+	.project ul {
+		font-size: 38pt;
 	}
-
-	.desc-link{
-		font-size: 46pt;
+	.desc-link {
+		font-size: 36pt;
 	}
-
+	.mobile-nav-button {
+		font-size: 2.5rem;
+		width: 2.5em;
+	}
 }
