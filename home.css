@@ -35,8 +35,8 @@
 
 .icon {
 	margin-right: 5px;
-	width:32px;
-	height:32px;
+	width: 32px;
+	height: 32px;
 }
 
 .navbar-link {
@@ -100,38 +100,38 @@ html {
 	scroll-behavior: smooth;
 }
 
-.help-text{
+.help-text {
 	padding-top: 20px;
 	font-size: 18pt;
 	font-family: 'Kalam', cursive;
 	color: gray;
 }
 
-.aboutme-div{
+.aboutme-div {
 	border-bottom-left-radius: 30%;
 	border-top-right-radius: 50%;
-	height:93vh;
-	background-color:rgb(32, 32, 32);
+	height: 93vh;
+	background-color: rgb(32, 32, 32);
 	z-index: 100;
 }
 
-.transition-div{
+.transition-div {
 	margin-top: -93vh;
 	padding-bottom: 100vh;
-	height:10vh;
+	height: 10vh;
 	background-image: linear-gradient(to top right, rgb(255, 50, 84), rgb(255, 238, 0));
 }
 
-.title-aboutme{
-	padding-top:25vh;
-	color:white;
+.title-aboutme {
+	padding-top: 25vh;
+	color: white;
 	text-align: center;
 	font-family: 'Righteous', cursive;
 }
 
-.desc-aboutme{
-	padding:5vh;
-	color:white;
+.desc-aboutme {
+	padding: 5vh;
+	color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 }
@@ -148,6 +148,9 @@ html {
 	.nav-link {
 		text-align: left;
 	}
+}
+
+@media (min-height: 991px) {
 	.navbar-link {
 		font-size: 32pt;
 	}
@@ -173,14 +176,27 @@ html {
 		font-size: 2.5rem;
 		width: 2.5em;
 	}
-
-	.icon{
+	.icon {
 		width: 64px;
 		height: 64px;
 	}
-
-	.aboutme-div{
+	.aboutme-div {
 		border-bottom-left-radius: 20%;
 		border-top-right-radius: 25%;
+		height: 63vh;
+	}
+
+	.transition-div {
+		margin-top: -63vh;
+		padding-bottom: 70vh;
+	}
+
+	.title-aboutme {
+		padding-top: 15vh;
+		font-size: 38pt;
+	}
+	
+	.desc-aboutme {
+		font-size: 24pt;
 	}
 }
