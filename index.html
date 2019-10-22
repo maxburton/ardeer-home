@@ -11,7 +11,9 @@
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 	<script src="./bootstrap.js"></script>
 	<link rel="stylesheet" type="text/css" href="./bootstrap.css">
-	<link href="https://fonts.googleapis.com/css?family=Righteous|Permanent+Marker|Kalam|Rock+Salt|Shrikhand&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css?family=Righteous|Permanent+Marker|Kalam|Rock+Salt|Shrikhand&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./home.css">
 </head>
 
@@ -31,43 +33,39 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto nav-fill w-100">
-				<li class="nav-item active">
+				<li class="nav-item ">
 					<!-- can use js to change active -->
 
 					<a class="nav-link" href="#web_projects">
-						<img src="./imgs/web.png" class="d-inline-block align-middle icon"
-							alt="">
+						<img src="./imgs/web.png" class="d-inline-block align-middle icon" alt="">
 						<h2 class="d-inline-block align-middle navbar-link">Web Projects <span
 								class="sr-only">(current)</span></h2>
 					</a>
 
 				</li>
-				<li class="nav-item active">
+				<li class="nav-item ">
 					<!-- can use js to change active -->
 
 					<a class="nav-link" href="#other_projects">
-						<img src="./imgs/smartphone.png" class="d-inline-block align-middle icon"
-							alt="">
+						<img src="./imgs/smartphone.png" class="d-inline-block align-middle icon" alt="">
 						<h2 class="d-inline-block align-middle navbar-link">Other Projects <span
 								class="sr-only">(current)</span></h2>
 					</a>
 
 				</li>
-				<li class="nav-item active">
+				<li class="nav-item ">
 					<!-- can use js to change active -->
 
 					<a class="nav-link" href="#cv">
-						<img src="./imgs/resume.png" class="d-inline-block align-middle icon"
-							alt="">
+						<img src="./imgs/resume.png" class="d-inline-block align-middle icon" alt="">
 						<h2 class="d-inline-block align-middle navbar-link">CV <span class="sr-only">(current)</span>
 						</h2>
 					</a>
 				</li>
-				<li class="nav-item active">
+				<li class="nav-item ">
 					<!-- can use js to change active -->
 					<a class="nav-link" href="#contact">
-						<img src="./imgs/contact.png" class="d-inline-block align-middle icon"
-							alt="">
+						<img src="./imgs/contact.png" class="d-inline-block align-middle icon" alt="">
 						<h2 class="d-inline-block align-middle navbar-link">Contact Me <span
 								class="sr-only">(current)</span></h2>
 					</a>
@@ -77,15 +75,24 @@
 		</div>
 	</nav>
 
-	<div class="container" id="content">
-		<div class="row" id="aboutme">
-			&nbsp;
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col" id="aboutme">
+				&nbsp;
+			</div>
 		</div>
+	</div>
+	<div class="container" id="content">
 		<div class="row project" id="web_projects">
 			<div class="col">
 				<div class="row">
 					<div class="col category">
 						<h1>Web Projects</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col help-text">
+						<p><i>(Click on project names to expand content)</i></p>
 					</div>
 				</div>
 				<div class="row">
@@ -119,7 +126,8 @@
 													ability to
 													skip the current song immediately), a blacklist for DOS attacks and
 													an AJAX
-													preview of the upcoming songs which updates as soon as a new video is
+													preview of the upcoming songs which updates as soon as a new video
+													is
 													submitted.</p>
 											</div>
 											<div class="col-lg-5 col-sm-12">
@@ -132,6 +140,11 @@
 												<a class="desc-link" href="./playlist">Check out Playlist -></a>
 											</div>
 										</div>
+										<div class="row">
+												<div class="col">
+													<a class="desc-link" href="https://github.com/maxburton/youtube-party-playlist">Go to the git repo -></a>
+												</div>
+											</div>
 									</div>
 								</div>
 							</li>

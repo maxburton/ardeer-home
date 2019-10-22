@@ -75,7 +75,11 @@
 }
 
 .desc-link:hover {
-	background-color: "gray"
+	background-color: yellow;
+}
+
+.heading-toggle:hover {
+	background-color: yellow;
 }
 
 #logo a {
@@ -94,6 +98,13 @@
 
 html {
 	scroll-behavior: smooth;
+}
+
+.help-text{
+	padding-top: 20px;
+	font-size: 18pt;
+	font-family: 'Kalam', cursive;
+	color: gray;
 }
 
 /* When the navbar is collapsed (in mobile mode) */
