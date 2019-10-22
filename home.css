@@ -35,6 +35,8 @@
 
 .icon {
 	margin-right: 5px;
+	width:32px;
+	height:32px;
 }
 
 .navbar-link {
@@ -130,5 +132,10 @@ html {
 	.mobile-nav-button {
 		font-size: 2.5rem;
 		width: 2.5em;
+	}
+
+	.icon{
+		width: 64px;
+		height: 64px;
 	}
 }
