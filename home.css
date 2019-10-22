@@ -79,7 +79,9 @@
 }
 
 .desc-image {
-	max-width: 100%;
+	width: 100%;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 .desc-link:hover {
@@ -196,7 +198,6 @@ html {
 	}
 
 	.title-aboutme {
-		padding-top: 15vh;
 		font-size: 38pt;
 	}
 	
