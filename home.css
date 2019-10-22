@@ -41,14 +41,20 @@
 
 .navbar-link {
 	padding-top: 6px;
-	font-size: 20pt;
+	font-size: 2.5vh;
 	font-family: 'Righteous', cursive;
 }
 
 .title-gubbin {
 	padding-top: 6px;
 	padding-left: 6px;
+	font-size: 5vh;
 	font-family: 'Righteous', cursive;
+}
+
+.logo{
+	width: 10vh;
+	height: 10vh;
 }
 
 .subheading {
@@ -130,7 +136,9 @@ html {
 }
 
 .desc-aboutme {
-	padding: 5vh;
+	padding-top: 5vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
 	color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -181,14 +189,8 @@ html {
 		height: 64px;
 	}
 	.aboutme-div {
-		border-bottom-left-radius: 20%;
-		border-top-right-radius: 25%;
-		height: 63vh;
-	}
-
-	.transition-div {
-		margin-top: -63vh;
-		padding-bottom: 70vh;
+		border-bottom-left-radius: 30%;
+		border-top-right-radius: 35%;
 	}
 
 	.title-aboutme {
@@ -198,5 +200,8 @@ html {
 	
 	.desc-aboutme {
 		font-size: 24pt;
+		padding-top: 5vh;
+		padding-left: 2vw;
+		padding-right: 2vw;
 	}
 }
