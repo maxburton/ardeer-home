@@ -164,4 +164,9 @@ html {
 		width: 64px;
 		height: 64px;
 	}
+
+	.aboutme-div{
+		border-bottom-left-radius: 10%;
+		border-top-right-radius: 15%;
+	}
 }
