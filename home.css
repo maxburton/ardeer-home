@@ -85,6 +85,10 @@
 	font-family: 'Rock Salt', cursive;
 }
 
+.category h1{
+	font-size: 40pt;
+}
+
 /* When the navbar is collapsed (in mobile mode) */
 @media (max-width: 991px) {
     .brand {
@@ -99,11 +103,31 @@
 	}
 	
 	.navbar-link{
-		font-size:20pt;
+		font-size:32pt;
 	}
 
 	.navbar-nav{
 		padding-top: 30px;
+	}
+
+	.category h1{
+		font-size: 64pt;
+	}
+
+	.title-gubbin{
+		font-size: 46pt;
+	}
+
+	.description{
+		font-size: 28pt;
+	}
+
+	.project ul{
+		font-size: 46pt;
+	}
+
+	.desc-link{
+		font-size: 46pt;
 	}
 
 }
