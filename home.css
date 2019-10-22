@@ -75,11 +75,11 @@
 }
 
 .desc-link:hover {
-	background-color: yellow;
+	background-color: rgb(255, 238, 0);
 }
 
 .heading-toggle:hover {
-	background-color: yellow;
+	background-color: rgb(255, 238, 0);
 }
 
 #logo a {
@@ -105,6 +105,21 @@ html {
 	font-size: 18pt;
 	font-family: 'Kalam', cursive;
 	color: gray;
+}
+
+.aboutme-div{
+	border-bottom-left-radius: 30%;
+	border-top-right-radius: 50%;
+	height:93vh;
+	background-color:rgb(32, 32, 32);
+	z-index: 100;
+}
+
+.transition-div{
+	margin-top: -93vh;
+	padding-bottom: 100vh;
+	height:10vh;
+	background-image: linear-gradient(to top right, rgb(255, 50, 84), rgb(255, 238, 0));
 }
 
 /* When the navbar is collapsed (in mobile mode) */
