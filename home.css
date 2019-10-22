@@ -60,7 +60,7 @@
 }
 
 .desc {
-	display: none;
+	display: flex;
 }
 
 .desc-link {
@@ -88,6 +88,10 @@
 
 .category h1 {
 	font-size: 40pt;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 /* When the navbar is collapsed (in mobile mode) */

@@ -92,7 +92,7 @@
 					<div class="col">
 						<ul>
 							<li><a class="heading-toggle" href="#">Youtube Party Playlist</a>
-								<div class="row desc">
+								<div class="row desc" style="display:none;">
 									<div class="col">
 										<div class="row desc-detail">
 											<div class="col-lg-1"></div>
@@ -149,11 +149,8 @@
 		$(".heading-toggle").on("click", function (e) {
 			e.preventDefault();
 			let desc = $(this).next('.desc');
-			if (desc.css("display") == "none") {
-				desc.css("display", "flex");
-			} else {
-				desc.css("display", "none");
-			}
+			desc.slideToggle();
+
 		});
 	});
 </script>
