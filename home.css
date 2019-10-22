@@ -88,7 +88,7 @@
 }
 
 .category {
-	padding-top: 200px;
+	padding-top: 150px;
 	font-family: 'Rock Salt', cursive;
 }
 
@@ -120,6 +120,20 @@ html {
 	padding-bottom: 100vh;
 	height:10vh;
 	background-image: linear-gradient(to top right, rgb(255, 50, 84), rgb(255, 238, 0));
+}
+
+.title-aboutme{
+	padding-top:25vh;
+	color:white;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+
+.desc-aboutme{
+	padding:5vh;
+	color:white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
 /* When the navbar is collapsed (in mobile mode) */
