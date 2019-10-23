@@ -52,7 +52,7 @@
 	font-family: 'Righteous', cursive;
 }
 
-.logo{
+.logo {
 	width: 10vh;
 	height: 10vh;
 	max-height: 80px;
@@ -148,6 +148,35 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+.category-nohelp h1 {
+	padding-bottom: 100px;
+}
+
+.pdf {
+	width: 100%;
+	height: 1250px;
+}
+
+.contact-info h3 {
+	font-family: 'Righteous', cursive;
+	padding-bottom: 20px;
+}
+
+.contact-info a:hover {
+	background-color: rgb(255, 238, 0);
+}
+
+#footer {
+	padding-top: 100px;
+	font-family: 'Roboto', sans-serif;
+	color: gray;
+	text-align: center;
+}
+
+#footer h4 {
+	font-size: 2vh;
+}
+
 /* When the navbar is collapsed (in mobile mode) */
 
 @media (max-width: 991px) {
@@ -196,11 +225,9 @@ html {
 		border-bottom-left-radius: 30%;
 		border-top-right-radius: 35%;
 	}
-
 	.title-aboutme {
 		font-size: 38pt;
 	}
-	
 	.desc-aboutme {
 		font-size: 24pt;
 		padding-top: 5vh;

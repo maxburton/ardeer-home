@@ -2,11 +2,14 @@
 <html>
 
 <head>
-	<!-- TODO:
-		-Add About Me Section
-		-Add content to each project section
-		-Hide and show project section when project title is clicked
-	-->
+	<link rel="apple-touch-icon" sizes="180x180" href="./resources/imgs/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./resources/imgs/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./resources/imgs/favicons/favicon-16x16.png">
+	<link rel="manifest" href="./resources/imgs/favicons/site.webmanifest">
+	<link rel="mask-icon" href="./resources/imgs/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#ffc40d">
+	<meta name="theme-color" content="#ffffff">
+
 	<title>Max's Gubbin Bucket</title>
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 	<script src="./bootstrap.js"></script>
@@ -21,7 +24,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<div class="brand align-middle " id="logo">
 			<a href="#">
-				<img src="./imgs/bucket.png" class="d-inline-block align-middle logo" alt="">
+				<img src="./resources/imgs/bucket.png" class="d-inline-block align-middle logo" alt="">
 				<h1 class="d-inline-block align-middle title-gubbin">Max's Gubbin Bucket</h1>
 			</a>
 		</div>
@@ -37,7 +40,7 @@
 					<!-- can use js to change active -->
 
 					<a class="nav-link" href="#web_projects">
-						<img src="./imgs/web.png" class="d-inline-block align-middle icon" alt="">
+						<img src="./resources/imgs/web.png" class="d-inline-block align-middle icon" alt="">
 						<h2 class="d-inline-block align-middle navbar-link">Web Projects <span
 								class="sr-only">(current)</span></h2>
 					</a>
@@ -47,7 +50,7 @@
 					<!-- can use js to change active -->
 
 					<a class="nav-link" href="#other_projects">
-						<img src="./imgs/smartphone.png" class="d-inline-block align-middle icon" alt="">
+						<img src="./resources/imgs/smartphone.png" class="d-inline-block align-middle icon" alt="">
 						<h2 class="d-inline-block align-middle navbar-link">Other Projects <span
 								class="sr-only">(current)</span></h2>
 					</a>
@@ -57,7 +60,7 @@
 					<!-- can use js to change active -->
 
 					<a class="nav-link" href="#cv">
-						<img src="./imgs/resume.png" class="d-inline-block align-middle icon" alt="">
+						<img src="./resources/imgs/resume.png" class="d-inline-block align-middle icon" alt="">
 						<h2 class="d-inline-block align-middle navbar-link">CV <span class="sr-only">(current)</span>
 						</h2>
 					</a>
@@ -65,7 +68,7 @@
 				<li class="nav-item ">
 					<!-- can use js to change active -->
 					<a class="nav-link" href="#contact">
-						<img src="./imgs/contact.png" class="d-inline-block align-middle icon" alt="">
+						<img src="./resources/imgs/contact.png" class="d-inline-block align-middle icon" alt="">
 						<h2 class="d-inline-block align-middle navbar-link">Contact Me <span
 								class="sr-only">(current)</span></h2>
 					</a>
@@ -150,7 +153,7 @@
 													the playlist</p>
 											</div>
 											<div class="col-lg-12 col-sm-12">
-												<img src="./imgs/screenshots/playlist.png" class="desc-image"
+												<img src="./resources/imgs/screenshots/playlist.png" class="desc-image"
 													alt="playlist preview image">
 											</div>
 										</div>
@@ -177,6 +180,126 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="row project" id="other_projects">
+			<div class="col">
+				<div class="row">
+					<div class="col category">
+						<h1>Other Projects</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col help-text">
+						<p><i>(Click on project names to expand content)</i></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<ul>
+							<li><a class="heading-toggle" href="#">NutriPlotter</a>
+								<div class="row desc" style="display:none;">
+									<div class="col">
+										<div class="row desc-detail">
+											<div class="col-lg-1"></div>
+											<div class="col-lg-11 col-sm-12">
+												<p class="description">This project was born after I was unable to find
+													an easy way for my friends and I to contribute to a shared YouTube
+													playlist. We would often want to show each other videos or stream
+													music but we had no way of queueing them up.</br></br>
+													YouTube Party Playlist solves this issue by allowing user's to
+													create a "room" where friends can submit YouTube videos on-the-fly
+													to a
+													shared queue. No login is required, you simply need a host device
+													(e.g a laptop or
+													smart TV) to create the room and everyone can connect to it using a
+													mobile
+													device.
+													</br></br>
+													Features include a search engine for YouTube videos, a queue for
+													users to see what position in the queue their songs are "voteskip"
+													which skips
+													the current video if enough people vote to skip, a blacklist for DOS
+													attacks and
+													an AJAX
+													preview of the upcoming songs which updates as soon as a new video
+													is
+													submitted. The host also has the
+													ability to
+													skip the current song immediately and restart the entire playlist
+													"from the top" after the playlist ends. The host can also leave the
+													room and rejoin at anytime, resuming
+													the playlist</p>
+											</div>
+											<div class="col-lg-12 col-sm-12">
+												<img src="./resources/imgs/screenshots/playlist.png" class="desc-image"
+													alt="playlist preview image">
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<a class="desc-link" href="./playlist">Check out Playlist -></a>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<a class="desc-link"
+													href="https://github.com/maxburton/youtube-party-playlist">Go to the
+													git repo -></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li><a href="https://github.com/maxburton/federated-recommender-system">Federated
+									Recommender System</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row project" id="cv">
+			<div class="col">
+				<div class="row">
+					<div class="col category category-nohelp">
+						<h1>My CV</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<embed class="pdf" src="./resources/max-cv-2019.pdf" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row project" id="contact">
+			<div class="col">
+				<div class="row">
+					<div class="col category category-nohelp">
+						<h1>Contact Me</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="row">
+							<div class="col-2"></div>
+							<div class="col-10 contact-info">
+								<h3>Email: <a href="mailto:max@burtoninternet.com">max@burtoninternet.com</a></h3>
+								<h3>Phone Number: +44 7921 403749</h3>
+								<h3>Github: <a href="https://github.com/maxburton">github.com/maxburton</a></h3>
+								<h3>LinkedIn: <a href="https://www.linkedin.com/in/max-kirker-burton-755889195/">Max
+										Kirker Burton</a></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row project" id="footer">
+			<div class="col">
+				<h4>Icons courtesy of <a href="https://www.flaticon.com/">flaticon</a>. All other assets are my
+					creation. </h4>
+			</div>
+		</div>
 	</div>
 </body>
 <script>
@@ -185,9 +308,9 @@
 			e.preventDefault();
 			let desc = $(this).next('.desc');
 			desc.slideToggle();
-			if($(this).css("background-color") != "rgb(255, 237, 0)"){
+			if ($(this).css("background-color") != "rgb(255, 237, 0)") {
 				$(this).css("background-color", "rgb(255, 237, 0)");
-			}else{
+			} else {
 				$(this).css("background-color", "");
 			}
 		});
