@@ -108,7 +108,7 @@
 		</div>
 	</div>
 	<div class="container" id="content">
-		<div class="row project" id="web_projects">
+		<div class="row" id="web_projects">
 			<div class="col">
 				<div class="row">
 					<div class="col category">
@@ -123,7 +123,8 @@
 				<div class="row">
 					<div class="col">
 						<ul>
-							<li><a class="heading-toggle" href="#">Youtube Party Playlist</a>
+							<li class="project-list"><a class="heading-toggle project" href="#">Youtube Party
+									Playlist</a>
 								<div class="row desc" style="display:none;">
 									<div class="col">
 										<div class="row desc-detail">
@@ -179,16 +180,144 @@
 									</div>
 								</div>
 							</li>
-							<li><a href="https://goeatdirect.com/">GoEatDirect</a></li>
-							<li><a href="./placeholdr/">Placeholdr</a></li>
-							<li><a href="./insanity/">Insanity Quotient</a></li>
+							<li class="project-list"><a class="project" href="https://goeatdirect.com/">GoEatDirect</a>
+
+							</li>
+							<li class="project-list"><a class="heading-toggle project" href="#">Placeholdr</a>
+								<div class="row desc" style="display:none;">
+									<div class="col">
+										<div class="row desc-detail">
+											<div class="col-1"></div>
+											<div class="col-11">
+												<p class="description">This project was born after I was unable to find
+													an easy way for my friends and I to contribute to a shared YouTube
+													playlist. We would often want to show each other videos or stream
+													music but we had no way of queueing them up.</br></br>
+													YouTube Party Playlist solves this issue by allowing user's to
+													create a "room" where friends can submit YouTube videos on-the-fly
+													to a
+													shared queue. No login is required, you simply need a host device
+													(e.g a laptop or
+													smart TV) to create the room and everyone can connect to it using a
+													mobile
+													device.
+													</br></br>
+													Features include a search engine for YouTube videos, a queue for
+													users to see what position in the queue their songs are "voteskip"
+													which skips
+													the current video if enough people vote to skip, a blacklist for DOS
+													attacks and
+													an AJAX
+													preview of the upcoming songs which updates as soon as a new video
+													is
+													submitted. The host also has the
+													ability to
+													skip the current song immediately and restart the entire playlist
+													"from the top" after the playlist ends. The host can also leave the
+													room and rejoin at anytime, resuming
+													the playlist </br></br>
+													Technologies used: Django, Python, Bootstrap, AJAX, Google Maps API
+												</p>
+											</div>
+											<div class="col-12">
+												<div id="myCarousel" class="carousel slide" data-ride="carousel">
+													<!-- Indicators -->
+													<ol class="carousel-indicators">
+														<li data-target="#myCarousel" data-slide-to="0" class="active">
+														</li>
+														<li data-target="#myCarousel" data-slide-to="1"></li>
+														<li data-target="#myCarousel" data-slide-to="2"></li>
+														<li data-target="#myCarousel" data-slide-to="3"></li>
+														<li data-target="#myCarousel" data-slide-to="4"></li>
+													</ol>
+
+													<!-- Wrapper for slides -->
+													<div class="carousel-inner">
+														<div class="carousel-item active">
+															<img src="./resources/imgs/screenshots/placeholdr1.PNG"
+																class="desc-image" alt="Home Screen">
+															<div class="carousel-caption">
+																<h3>Home Screen</h3>
+															</div>
+														</div>
+
+														<div class="carousel-item">
+															<img src="./resources/imgs/screenshots/placeholdr2.PNG"
+																class="desc-image" alt="Trips Screen">
+															<div class="carousel-caption">
+																<h3>Trips Screen</h3>
+															</div>
+														</div>
+
+														<div class="carousel-item">
+															<img src="./resources/imgs/screenshots/placeholdr3.PNG"
+																class="desc-image" alt="User Registration">
+															<div class="carousel-caption">
+																<h3>User Registration</h3>
+															</div>
+														</div>
+
+														<div class="carousel-item">
+															<img src="./resources/imgs/screenshots/placeholdr4.PNG"
+																class="desc-image" alt="User Profile">
+															<div class="carousel-caption">
+																<h3>User Profile</h3>
+															</div>
+														</div>
+														<div class="carousel-item">
+															<img src="./resources/imgs/screenshots/placeholdr5.PNG"
+																class="desc-image" alt="Submit a Trip">
+															<div class="carousel-caption">
+																<h3>Submit a Trip</h3>
+															</div>
+														</div>
+													</div>
+
+													<!-- Left and right controls -->
+													<a class="carousel-control-prev" href="#myCarousel"
+														data-slide="prev">
+														<span class="carousel-control-prev-icon"></span>
+														<span class="sr-only">Previous</span>
+													</a>
+													<a class="carousel-control-next" href="#myCarousel"
+														data-slide="next">
+														<span class="carousel-control-next-icon"></span>
+														<span class="sr-only">Next</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-1">
+											</div>
+											<div class="col-11">
+												<div class="row">
+													<div class="col">
+														<a class="desc-link" href="./placeholdr">Check out Placeholdr
+															-></a>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col">
+														<a class="desc-link"
+															href="https://github.com/maxburton/placeholdr">Go
+															to the
+															git repo -></a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="project-list"><a class="project" href="./insanity/">Insanity Quotient</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="row project" id="other_projects">
+		<div class="row" id="other_projects">
 			<div class="col">
 				<div class="row">
 					<div class="col category">
@@ -203,7 +332,7 @@
 				<div class="row">
 					<div class="col">
 						<ul>
-							<li><a class="heading-toggle" href="#">NutriPlotter</a>
+							<li class="project-list"><a class="heading-toggle project" href="#">NutriPlotter</a>
 								<div class="row desc" style="display:none;">
 									<div class="col">
 										<div class="row desc-detail">
@@ -257,14 +386,15 @@
 									</div>
 								</div>
 							</li>
-							<li><a href="https://github.com/maxburton/federated-recommender-system">Federated
+							<li class="project-list"><a class="project"
+									href="https://github.com/maxburton/federated-recommender-system">Federated
 									Recommender System</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row project" id="cv">
+		<div class="row" id="cv">
 			<div class="col">
 				<div class="row">
 					<div class="col category category-nohelp">
@@ -278,7 +408,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row project" id="contact">
+		<div class="row" id="contact">
 			<div class="col">
 				<div class="row">
 					<div class="col category category-nohelp">
