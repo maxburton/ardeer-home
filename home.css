@@ -41,14 +41,14 @@
 
 .navbar-link {
 	padding-top: 6px;
-	font-size: 2.5vh;
+	font-size: 2.5vmin;
 	font-family: 'Righteous', cursive;
 }
 
 .title-gubbin {
 	padding-top: 6px;
 	padding-left: 6px;
-	font-size: 5vh;
+	font-size: 4vmin;
 	font-family: 'Righteous', cursive;
 }
 
@@ -118,25 +118,28 @@ html {
 }
 
 .aboutme-div {
-	border-bottom-left-radius: 30%;
-	border-top-right-radius: 50%;
-	height: 93vh;
+	border-bottom-left-radius: 15vw;
+	border-top-right-radius: 15vw;
 	background-color: rgb(32, 32, 32);
+	padding-bottom: 5vh;
+	margin-top: 5vh;
 	z-index: 100;
+	min-height: 50vh;
 }
 
 .transition-div {
-	margin-top: -93vh;
-	padding-bottom: 100vh;
-	height: 10vh;
+	margin-top: -996vh;
+	padding-bottom: 98vh;
+	height: 1000vh;
 	background-image: linear-gradient(to top right, rgb(255, 50, 84), rgb(255, 238, 0));
 }
 
 .title-aboutme {
-	padding-top: 25vh;
+	padding-top: 5vh;
 	color: white;
 	text-align: center;
 	font-family: 'Righteous', cursive;
+	font-size: 4vh;
 }
 
 .desc-aboutme {
@@ -146,6 +149,7 @@ html {
 	color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	font-size: 2vh;
 }
 
 .category-nohelp h1 {
@@ -174,7 +178,7 @@ html {
 }
 
 #footer h4 {
-	font-size: 2vh;
+	font-size: 1vh;
 }
 
 /* When the navbar is collapsed (in mobile mode) */
@@ -191,47 +195,3 @@ html {
 	}
 }
 
-@media (min-height: 991px) {
-	.navbar-link {
-		font-size: 32pt;
-	}
-	.navbar-nav {
-		padding-top: 30px;
-	}
-	.category h1 {
-		font-size: 52pt;
-	}
-	.title-gubbin {
-		font-size: 46pt;
-	}
-	.description {
-		font-size: 24pt;
-	}
-	.project ul {
-		font-size: 38pt;
-	}
-	.desc-link {
-		font-size: 32pt;
-	}
-	.mobile-nav-button {
-		font-size: 2.5rem;
-		width: 2.5em;
-	}
-	.icon {
-		width: 64px;
-		height: 64px;
-	}
-	.aboutme-div {
-		border-bottom-left-radius: 30%;
-		border-top-right-radius: 35%;
-	}
-	.title-aboutme {
-		font-size: 38pt;
-	}
-	.desc-aboutme {
-		font-size: 24pt;
-		padding-top: 5vh;
-		padding-left: 2vw;
-		padding-right: 2vw;
-	}
-}

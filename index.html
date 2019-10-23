@@ -80,6 +80,11 @@
 
 	<div class="container-fluid">
 		<div class="row">
+			<div class="col spacer">
+			</div>
+		</div>
+
+		<div class="row">
 			<div class="col aboutme-div" id="aboutme">
 				<h1 class="title-aboutme">What Is This?</h1>
 				<p class="desc-aboutme">This website started as a very barebones way for me to keep track of the various
@@ -122,8 +127,8 @@
 								<div class="row desc" style="display:none;">
 									<div class="col">
 										<div class="row desc-detail">
-											<div class="col-lg-1"></div>
-											<div class="col-lg-11 col-sm-12">
+											<div class="col-1"></div>
+											<div class="col-11">
 												<p class="description">This project was born after I was unable to find
 													an easy way for my friends and I to contribute to a shared YouTube
 													playlist. We would often want to show each other videos or stream
@@ -150,9 +155,11 @@
 													skip the current song immediately and restart the entire playlist
 													"from the top" after the playlist ends. The host can also leave the
 													room and rejoin at anytime, resuming
-													the playlist</p>
+													the playlist </br></br>
+													Technologies used: HTML, CSS, PHP, JS+jQuery, MySQL
+												</p>
 											</div>
-											<div class="col-lg-12 col-sm-12">
+											<div class="col-12">
 												<img src="./resources/imgs/screenshots/playlist.png" class="desc-image"
 													alt="playlist preview image">
 											</div>
@@ -314,6 +321,20 @@
 				$(this).css("background-color", "");
 			}
 		});
+	});
+
+	// Push body content below navbar whenever it is resized
+	var onResize = function () {
+		// apply dynamic padding at the top of the body according to the fixed navbar height
+		$("body").css("padding-top", $(".fixed-top").height());
+	};
+
+	// attach the function to the window resize event
+	$(window).resize(onResize);
+
+	// call it also when the page is ready after load or reload
+	$(function () {
+		onResize();
 	});
 </script>
 
