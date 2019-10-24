@@ -15,7 +15,7 @@
 	<script src="./bootstrap.js"></script>
 	<link rel="stylesheet" type="text/css" href="./bootstrap.css">
 	<link
-		href="https://fonts.googleapis.com/css?family=Righteous|Permanent+Marker|Kalam|Rock+Salt|Shrikhand|Roboto&display=swap"
+		href="https://fonts.googleapis.com/css?family=Righteous|Permanent+Marker|Kalam|Rock+Salt|Shrikhand|Roboto|Raleway&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./home.css">
 </head>
@@ -157,7 +157,7 @@
 													"from the top" after the playlist ends. The host can also leave the
 													room and rejoin at anytime, resuming
 													the playlist </br></br>
-													Technologies used: HTML, CSS, PHP, JS+jQuery, MySQL
+													Technologies used: HTML, CSS, PHP, JS+jQuery, AJAX, MySQL
 												</p>
 											</div>
 											<div class="col-12">
@@ -189,33 +189,19 @@
 										<div class="row desc-detail">
 											<div class="col-1"></div>
 											<div class="col-11">
-												<p class="description">This project was born after I was unable to find
-													an easy way for my friends and I to contribute to a shared YouTube
-													playlist. We would often want to show each other videos or stream
-													music but we had no way of queueing them up.</br></br>
-													YouTube Party Playlist solves this issue by allowing user's to
-													create a "room" where friends can submit YouTube videos on-the-fly
-													to a
-													shared queue. No login is required, you simply need a host device
-													(e.g a laptop or
-													smart TV) to create the room and everyone can connect to it using a
-													mobile
-													device.
-													</br></br>
-													Features include a search engine for YouTube videos, a queue for
-													users to see what position in the queue their songs are "voteskip"
-													which skips
-													the current video if enough people vote to skip, a blacklist for DOS
-													attacks and
-													an AJAX
-													preview of the upcoming songs which updates as soon as a new video
-													is
-													submitted. The host also has the
-													ability to
-													skip the current song immediately and restart the entire playlist
-													"from the top" after the playlist ends. The host can also leave the
-													room and rejoin at anytime, resuming
-													the playlist </br></br>
+												<p class="description">A django project I helped develop as part of my
+													second year at Uni (alongside Guillaume de Susanne d'Epinay, Leo
+													Papaloizos and Henry Togwell), this site acts as a social media
+													platform for users to create and recommend trips and
+													destinations.</br></br>
+													Users can create accounts, which feature a reputation system and
+													recommended trips. Users can also create individual places/landmarks
+													and then create a "trip" that consists of a series of existing or
+													custom made places. This then generates a route on the google
+													maps API, allowing users to map their journey and see if it is feasible.</br></br>
+													Users can leave reviews on places and trips, and can add #tags.
+													These #tags will show up at the top of the place/trip. A search
+													system matches a place/trips name, description or #tags.</br></br>
 													Technologies used: Django, Python, Bootstrap, AJAX, Google Maps API
 												</p>
 											</div>
@@ -293,7 +279,8 @@
 											<div class="col-11">
 												<div class="row">
 													<div class="col">
-														<a class="desc-link" href="http://placeholdr.ardeer.co.uk">Check out Placeholdr
+														<a class="desc-link" href="http://placeholdr.ardeer.co.uk">Check
+															out Placeholdr
 															-></a>
 													</div>
 												</div>
@@ -336,37 +323,11 @@
 								<div class="row desc" style="display:none;">
 									<div class="col">
 										<div class="row desc-detail">
-											<div class="col-lg-1"></div>
-											<div class="col-lg-11 col-sm-12">
-												<p class="description">This project was born after I was unable to find
-													an easy way for my friends and I to contribute to a shared YouTube
-													playlist. We would often want to show each other videos or stream
-													music but we had no way of queueing them up.</br></br>
-													YouTube Party Playlist solves this issue by allowing user's to
-													create a "room" where friends can submit YouTube videos on-the-fly
-													to a
-													shared queue. No login is required, you simply need a host device
-													(e.g a laptop or
-													smart TV) to create the room and everyone can connect to it using a
-													mobile
-													device.
-													</br></br>
-													Features include a search engine for YouTube videos, a queue for
-													users to see what position in the queue their songs are "voteskip"
-													which skips
-													the current video if enough people vote to skip, a blacklist for DOS
-													attacks and
-													an AJAX
-													preview of the upcoming songs which updates as soon as a new video
-													is
-													submitted. The host also has the
-													ability to
-													skip the current song immediately and restart the entire playlist
-													"from the top" after the playlist ends. The host can also leave the
-													room and rejoin at anytime, resuming
-													the playlist</p>
+											<div class="col-1"></div>
+											<div class="col-11">
+												<p class="description"></p>
 											</div>
-											<div class="col-lg-12 col-sm-12">
+											<div class="col-12">
 												<img src="./resources/imgs/screenshots/playlist.png" class="desc-image"
 													alt="playlist preview image">
 											</div>
@@ -420,10 +381,10 @@
 						<div class="row">
 							<div class="col-2"></div>
 							<div class="col-10 contact-info">
-								<h3>Email: <a href="mailto:max@burtoninternet.com">max@burtoninternet.com</a></h3>
+								<h3>Email: <a class="contact-link" href="mailto:max@burtoninternet.com">max@burtoninternet.com</a></h3>
 								<h3>Phone Number: +44 7921 403749</h3>
-								<h3>Github: <a href="https://github.com/maxburton">github.com/maxburton</a></h3>
-								<h3>LinkedIn: <a href="https://www.linkedin.com/in/max-kirker-burton-755889195/">Max
+								<h3>Github: <a class="contact-link" href="https://github.com/maxburton">github.com/maxburton</a></h3>
+								<h3>LinkedIn: <a class="contact-link" href="https://www.linkedin.com/in/max-kirker-burton-755889195/">Max
 										Kirker Burton</a></h3>
 							</div>
 						</div>

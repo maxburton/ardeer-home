@@ -2,7 +2,7 @@ ul {
 	list-style-type: none;
 }
 
-.project-list{
+.project-list {
 	margin-bottom: 35px;
 }
 
@@ -72,18 +72,16 @@ a:hover {
 .description {
 	padding-top: 10px;
 	font-size: 14pt;
-	font-family: 'Kalam', cursive;
+	font-family: 'Raleway', sans-serif;
 }
 
 .carousel-caption h3 {
 	z-index: 100;
-	background-color:rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.7);
 	color: black;
 	font-family: 'Kalam', cursive;
 	font-size: 20pt;
 }
-
-
 
 .carousel-indicators li {
 	background-color: gray;
@@ -99,7 +97,12 @@ a:hover {
 
 .desc-link {
 	font-size: 18pt;
-	font-family: 'Shrikhand', cursive;
+	font-family: 'Raleway', sans-serif;
+	/* highlighter effect */
+	background: linear-gradient(to right, rgb(255, 238, 0) 50%, rgba(255, 255, 255, 0) 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all .5s;
 }
 
 .desc-image {
@@ -109,11 +112,19 @@ a:hover {
 }
 
 .desc-link:hover {
-	background-color: rgb(255, 238, 0);
+	background-position: left bottom;
+}
+
+.heading-toggle {
+	/* highlighter effect */
+	background: linear-gradient(to right, rgb(255, 238, 0) 50%, rgba(255, 255, 255, 0) 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all .5s;
 }
 
 .heading-toggle:hover {
-	background-color: rgb(255, 238, 0);
+	background-position: left bottom;
 }
 
 #logo a {
@@ -186,12 +197,20 @@ html {
 }
 
 .contact-info h3 {
-	font-family: 'Righteous', cursive;
+	font-family: 'Raleway', sans-serif;
 	padding-bottom: 20px;
 }
 
-.contact-info a:hover {
-	background-color: rgb(255, 238, 0);
+.contact-link {
+	/* highlighter effect */
+	background: linear-gradient(to right, rgb(255, 238, 0) 50%, rgba(255, 255, 255, 0) 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all .5s;
+}
+
+.contact-link:hover {
+	background-position: left bottom;
 }
 
 #footer {
