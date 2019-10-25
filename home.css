@@ -75,11 +75,11 @@ a:hover {
 	font-family: 'Raleway', sans-serif;
 }
 
-.carousel-caption h3 {
+.carousel-caption {
 	z-index: 100;
 	background-color: rgba(255, 255, 255, 0.7);
 	color: black;
-	font-family: 'Kalam', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size: 20pt;
 }
 
@@ -95,9 +95,14 @@ a:hover {
 	display: flex;
 }
 
+.links {
+	padding-bottom: 50px;
+}
+
 .desc-link {
-	font-size: 18pt;
+	font-size: 20pt;
 	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
 	/* highlighter effect */
 	background: linear-gradient(to right, rgb(255, 238, 0) 50%, rgba(255, 255, 255, 0) 50%);
 	background-size: 200% 100%;
@@ -107,8 +112,7 @@ a:hover {
 
 .desc-image {
 	width: 100%;
-	padding-top: 5vh;
-	padding-bottom: 5vh;
+	padding-bottom: 30px;
 }
 
 .desc-link:hover {
@@ -137,18 +141,14 @@ a:hover {
 	font-family: 'Rock Salt', cursive;
 }
 
-.category h1 {
+.category {
 	font-size: 40pt;
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 .help-text {
-	padding-top: 20px;
+	padding-bottom: 50px;
 	font-size: 18pt;
-	font-family: 'Kalam', cursive;
+	font-family: 'Raleway', sans-serif;
 	color: gray;
 }
 
@@ -187,7 +187,7 @@ html {
 	font-size: 2vh;
 }
 
-.category-nohelp h1 {
+.category-nohelp {
 	padding-bottom: 50px;
 }
 
@@ -196,8 +196,9 @@ html {
 	height: 1250px;
 }
 
-.contact-info h3 {
+.contact-info {
 	font-family: 'Raleway', sans-serif;
+	font-size: 28pt;
 	padding-bottom: 20px;
 }
 
@@ -221,7 +222,7 @@ html {
 }
 
 #footer h4 {
-	font-size: 1vh;
+	font-size: 14pt;
 }
 
 /* When the navbar is collapsed (in mobile mode) */
@@ -235,5 +236,44 @@ html {
 	}
 	.nav-link {
 		text-align: left;
+	}
+	.logo{
+		height: 100px;
+		width: 100px;
+		max-height: 100px;
+		max-width: 100px;
+	}
+	.navbar-toggler-icon{
+		height: 3.5em;
+		width: 3.5em;
+	}
+	.icon{
+		height: 48pt;
+		width: 48pt;
+		margin-right: 20px;
+		margin-left: 18px;
+	}
+	.navbar-nav {
+		padding-top: 30px;
+	}
+	.container {
+		width: 100%;
+		max-width: none;
+	}
+	/* mobile font sizes */
+	.font-mobile-xs {
+		font-size: 24pt;
+	}
+	.font-mobile-s {
+		font-size: 30pt;
+	}
+	.font-mobile-m {
+		font-size: 36pt;
+	}
+	.font-mobile-l {
+		font-size: 42pt;
+	}
+	.font-mobile-xl {
+		font-size: 52pt;
 	}
 }
