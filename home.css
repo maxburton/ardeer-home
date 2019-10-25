@@ -237,17 +237,17 @@ a:hover {
 	.nav-link {
 		text-align: left;
 	}
-	.logo{
+	.logo {
 		height: 100px;
 		width: 100px;
 		max-height: 100px;
 		max-width: 100px;
 	}
-	.navbar-toggler-icon{
+	.navbar-toggler-icon {
 		height: 3.5em;
 		width: 3.5em;
 	}
-	.icon{
+	.icon {
 		height: 48pt;
 		width: 48pt;
 		margin-right: 20px;

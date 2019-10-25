@@ -61,7 +61,8 @@
 
 					<a class="nav-link" title="#cv">
 						<img src="./resources/imgs/resume.png" class="d-inline-block align-middle icon" alt="">
-						<h2 class="d-inline-block align-middle navbar-link font-mobile-m">CV <span class="sr-only">(current)</span>
+						<h2 class="d-inline-block align-middle navbar-link font-mobile-m">CV <span
+								class="sr-only">(current)</span>
 						</h2>
 					</a>
 				</li>
@@ -411,8 +412,47 @@
 									</div>
 								</div>
 							</li>
-							<li class="project-list"><a class="project font-mobile-l" href="./insanity/">Insanity
-									Quotient</a></li>
+							<li class="project-list"><a class="project heading-toggle font-mobile-l" href="./insanity/">Insanity
+									Quotient</a>
+								<div class="row desc" style="display:none;">
+									<div class="col">
+										<div class="row desc-detail">
+											<div class="col-1"></div>
+											<div class="col-10">
+												<p class="description font-mobile-xs">A general knowledge quiz game that
+													asks relatively easy questions but only gives you 1 second to
+													answer.</br></br>
+													The player can use arrow keys (on a non-mobile device) or click/tap
+													on the answers as they appear.
+													</br></br>
+													In the future I want to add more questions and other ways of
+													distracting the player as the rounds advance, such as making the
+													font more illegible and hiding parts of the answers.
+												</br></br>
+													Technologies used: Bootstrap, JS+jQuery
+												</p>
+											</div>
+											<div class="col-1"></div>
+											<div class="col-12">
+												<img src="./resources/imgs/screenshots/insanity.png" class="desc-image"
+													alt="insanity preview image">
+											</div>
+										</div>
+										<div class="row links">
+											<div class="col-1"></div>
+											<div class="col-5">
+												<a class="desc-link font-mobile-xs" href="./insanity">Check out
+													Insanity</a>
+											</div>
+											<div class="col-6">
+												<a class="desc-link font-mobile-xs"
+													href="https://github.com/maxburton/insanity">Go to the
+													git repo</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -551,38 +591,38 @@
 		onResize();
 	});
 
-/*
-	// When the navbar is collapsed and shown in mobile mode, pad the body
-	$(".collapse").on("shown.bs.collapse", function (e){
-		onResize();
-	});
-
-	$(".collapse").on("hidden.bs.collapse", function (e){
-		onResize();
-	});
-*/
+	/*
+		// When the navbar is collapsed and shown in mobile mode, pad the body
+		$(".collapse").on("shown.bs.collapse", function (e){
+			onResize();
+		});
+	
+		$(".collapse").on("hidden.bs.collapse", function (e){
+			onResize();
+		});
+	*/
 
 	// When nav link is clicked, scroll to the category including navbar offset
-	$(".nav-link").on("click", function (e){
+	$(".nav-link").on("click", function (e) {
 		var div = $(this).attr("title");
 		var divpos = $(div).offset().top - $(".fixed-top").height();
-		$('body, html').animate({scrollTop: divpos});
+		$('body, html').animate({ scrollTop: divpos });
 	});
 
-	$("#home").on("click", function (e){
-		$('body, html').animate({scrollTop: 0});
+	$("#home").on("click", function (e) {
+		$('body, html').animate({ scrollTop: 0 });
 	});
 
 	// Expanded navbar is closed when clicked/tapped outside of an open navbar
 	$(document).on("click", function (e) {
-        var clickover = $(e.target);
+		var clickover = $(e.target);
 		console.log(clickover);
 		var navbar = $(".navbar-collapse");
-        var _opened = navbar.hasClass("show");
-        if (_opened === true && !clickover.hasClass("navbar-link")) {
-            navbar.collapse('hide');
-        }
-    });
+		var _opened = navbar.hasClass("show");
+		if (_opened === true && !clickover.hasClass("navbar-link")) {
+			navbar.collapse('hide');
+		}
+	});
 </script>
 
 
