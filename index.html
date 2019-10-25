@@ -572,6 +572,17 @@
 	$("#home").on("click", function (e){
 		$('body, html').animate({scrollTop: 0});
 	});
+
+	// Expanded navbar is closed when clicked/tapped outside of an open navbar
+	$(document).on("click", function (e) {
+        var clickover = $(e.target);
+		console.log(clickover);
+		var navbar = $(".navbar-collapse");
+        var _opened = navbar.hasClass("show");
+        if (_opened === true && !clickover.hasClass("navbar-link")) {
+            navbar.collapse('hide');
+        }
+    });
 </script>
 
 
