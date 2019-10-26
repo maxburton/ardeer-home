@@ -96,6 +96,7 @@ a:hover {
 }
 
 .links {
+	padding-top: 30px;
 	padding-bottom: 50px;
 }
 
@@ -112,7 +113,6 @@ a:hover {
 
 .desc-image {
 	width: 100%;
-	padding-bottom: 30px;
 }
 
 .desc-link:hover {
@@ -225,6 +225,11 @@ a:hover {
 	font-size: 14pt;
 }
 
+.nutriplotter-carousel {
+	max-width: 500px;
+	margin:0 auto
+}
+
 /* When the navbar is collapsed (in mobile mode) */
 
 @media (max-width: 991px) {
@@ -275,5 +280,8 @@ a:hover {
 	}
 	.font-mobile-xl {
 		font-size: 52pt;
+	}
+	.nutriplotter-carousel {
+		max-width: 80vw;
 	}
 }
