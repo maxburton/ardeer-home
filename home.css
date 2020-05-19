@@ -230,6 +230,11 @@ a:hover {
 	margin:0 auto
 }
 
+.frs-carousel {
+	max-width: 650px;
+	margin:0 auto
+}
+
 /* When the navbar is collapsed (in mobile mode) */
 
 @media (max-width: 991px) {
@@ -282,6 +287,9 @@ a:hover {
 		font-size: 52pt;
 	}
 	.nutriplotter-carousel {
+		max-width: 80vw;
+	}
+	.frs-carousel {
 		max-width: 80vw;
 	}
 }
